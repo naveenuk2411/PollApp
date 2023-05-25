@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar CSS */
+nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: antiquewhite;
+  padding: 0.5% 1%;
+} 
+
+nav p {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* Main CSS */
+/* .main {
+    margin-top: "10%";
+} */
+
+/* Sign Up Modal CSS */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 30%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+  z-index: 2;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.modal-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.modal-body-component {
+  margin-bottom: 2em;
+}
+
+
